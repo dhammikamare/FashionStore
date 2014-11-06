@@ -1,0 +1,166 @@
+.borderaround{
+    width: 800px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: 10px solid #c0c0c0 ;
+    text-align: left;
+    color: black;
+}
+.box{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    color: #000000;
+}
+.crimsonbox{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 10px solid #dc143c;
+    border-radius: 25px;
+    text-align: center;
+    color: #000000;
+}
+.orangebox{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 10px solid #ff6347;
+    border-radius: 25px;
+    text-align: center;
+    color: #000000;
+}
+.yellowbox{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 10px solid #ffa500;
+    border-radius: 25px;
+    text-align: center;
+    color: #000000;
+}
+.crimsonbutton{
+    width:90px;
+    height: 30px;
+    color: black ;
+    vertical-align: centre;
+    border-top: 1px solid #c0ffff ;
+    border-right: 1px solid #00f ;
+    border-bottom: 1px solid #00f ;
+    border-left: 1px solid #c0ffff ;
+    background-color: #dc143c;
+    border-radius: 5px 5px 5px 5px;
+}
+.orangebutton{
+    width:90px;
+    height: 30px;
+    color: black ;
+    vertical-align: centre;
+    border-top: 1px solid #c0ffff ;
+    border-right: 1px solid #00f ;
+    border-bottom: 1px solid #00f ;
+    border-left: 1px solid #c0ffff ;
+    background-color: #ff6347;
+    border-radius: 5px 5px 5px 5px;
+}
+.yellowbutton{
+    width:90px;
+    height: 30px;
+    color: black ;
+    vertical-align: centre;
+    border-top: 1px solid #c0ffff ;
+    border-right: 1px solid #00f ;
+    border-bottom: 1px solid #00f ;
+    border-left: 1px solid #c0ffff ;
+    background-color: #ffa500;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.box1{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 10px solid #dc143c;
+    border-radius: 25px;
+    text-align: center;
+    color: #000000;
+}
+.box2{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 10px solid #ff6347;
+    border-radius: 25px;
+    text-align: center;
+    color: #000000;
+}
+.box3{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 10px solid #ffa500;
+    border-radius: 25px;
+    text-align: center;
+    color: #000000;
+}
+.button1{
+    width:90px;
+    height: 30px;
+    color: black ;
+    vertical-align: centre;
+    border-top: 1px solid #c0ffff ;
+    border-right: 1px solid #00f ;
+    border-bottom: 1px solid #00f ;
+    border-left: 1px solid #c0ffff ;
+    background-color: #dc143c;
+    border-radius: 5px 5px 5px 5px;
+}
+.button2{
+    width:90px;
+    height: 30px;
+    color: black ;
+    vertical-align: centre;
+    border-top: 1px solid #c0ffff ;
+    border-right: 1px solid #00f ;
+    border-bottom: 1px solid #00f ;
+    border-left: 1px solid #c0ffff ;
+    background-color: #ff6347;
+    border-radius: 5px 5px 5px 5px;
+}
+.button3{
+    width:90px;
+    height: 30px;
+    color: black ;
+    vertical-align: centre;
+    border-top: 1px solid #c0ffff ;
+    border-right: 1px solid #00f ;
+    border-bottom: 1px solid #00f ;
+    border-left: 1px solid #c0ffff ;
+    background-color: #ffa500;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.productimage{
+    width: 200px;
+    height: 300px;
+    border-width: 0px;
+}

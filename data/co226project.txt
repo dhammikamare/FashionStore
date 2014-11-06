@@ -1,0 +1,51 @@
+<?php echo $row['Password'] ?>
+<?php  ?>
+// shipping.php
+<?php
+	session_start();
+	
+	include("dbconnect.php");
+		
+	if(isset($_SESSION['UserID'])){
+		global $UserID = $_SESSION['UserID'];
+	}
+	
+	$sql = "SELECT Title, FirstName, LastName, Address, Email, Telephone FROM USER WHERE UserID = '".$UserID."'";
+	$result = mysql_query($sql);
+
+	while($row = mysql_fetch_array($result)){
+		global $Name = $row['Title'].". ".$row['FirstName']." ".$row['LastName'];
+		global $Address = $row['Address'];
+		global $Email = $row['Email'];
+		global $Telephone = $row['Telephone'];
+	}
+	// set these to form 
+	
+	mysql_close($con);
+	header('Location: ../shipping.php');
+?>
+
+// placeorder.php
+<?php
+	// save BillingAdd
+	include("dbconnect.php");
+?>
+
+// home.php
+<?php
+	session_start();
+
+	if(isset($_SESSION['UserID'])){
+		include("myaccount.php");
+	}
+	else{
+		include("login.html");
+	}
+
+	if(isset($_GET['error']){
+		if($_GET['error'] == 1){
+			global $alert = "Login Error! Please check your user name & password."
+		}
+		echo "alert(".$alert.")";
+	}
+?>

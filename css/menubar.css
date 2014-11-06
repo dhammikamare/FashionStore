@@ -1,0 +1,17 @@
+.menubar{
+    width: 100%;
+    //color: white;
+    position: fixed;
+    z-index: 1000;
+    height: 55px;
+    margin: 0p;
+    padding: 0px;
+    border-top:1px solid #2B3D44;
+    border-bottom: 1px solid #2B3D44;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.36);
+    //background-image: url(images/menu-back.png);
+    //background: white url("images/back.png");
+    background-repeat: repeat;
+    background-position: center;
+}
+

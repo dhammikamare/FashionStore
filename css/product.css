@@ -1,0 +1,29 @@
+#borderaround{
+    width: 280px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: 10px solid #c0c0c0 ;
+    text-align: left;
+    color: black;
+}
+#buttons{
+    margin-left:18%;
+    margin-top:2%;
+}
+#insert,#delete,#update{
+    background-color:#ff944d;
+}
+
+#h1{
+    width: 220px;
+    border: 5px solid #e65c00; 
+    background-color: #e65c00;
+    font-size:1.2em;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    margin-left:11%;
+}

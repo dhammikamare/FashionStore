@@ -1,0 +1,58 @@
+.borderaround{
+    width: 800px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: 10px solid #c0c0c0 ;
+    text-align: left;
+    color: black;
+}
+.box{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+.smallbox{
+    width: 150px;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+.button{
+    width:90px;
+    height: 30px;
+    color: black ;
+    vertical-align: centre;
+    border-top: 1px solid #c0ffff ;
+    border-right: 1px solid #00f ;
+    border-bottom: 1px solid #00f ;
+    border-left: 1px solid #c0ffff ;
+    border-radius: 5px 5px 5px 5px;
+}
+.h1{
+    width: 770px;
+    height: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sizetable{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left:25%;
+    color: #2C040C;
+}

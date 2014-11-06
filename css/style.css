@@ -1,0 +1,100 @@
+body{
+    background-image: url(../images/bg-noise-tile.png);
+    background-repeat: repeat;
+}
+
+.round_border{
+    border-width: 4px;
+    border-color: gray;
+    border-style: solid;
+
+    -moz-border-radius: 20px;       /* Safari*/
+    -webkit-border-radius: 20px;    /* Firefox*/
+    -khtml-border-radius: 20px;     /* Chrome*/
+    -o-border-radius: 20px;         /* Opera*/
+    border-radius: 20px;            /* IE*/
+
+    padding:10px;
+    /*margin: 10px;*/
+}
+
+.mytable table{
+    /*box-shadow: 10px 10px 5px #888888;*/
+    border-collapse: collapse;
+}
+.mytable  thead{
+    background-color: #00ff33;
+    font-weight: bold;
+    color: black;
+}
+.mytable  thead tr th{
+    text-align: center;
+    border: black solid 1px;
+}
+.mytable  tfoot{
+    font-weight: bold;
+}
+.mytable  tbody{
+    /*font-style: italic;*/
+}
+.mytable   tbody tr td{
+    text-align: left;
+    padding: 3px;
+}
+.mytable   .left_td{
+    border-top: silver solid 1px;
+    border-left: black solid 1px;
+    border-right:  silver solid 1px;
+    border-bottom:  black solid 1px;
+}
+.mytable   .middle_td{
+    border-top: silver solid 1px;
+    border-right:  silver solid 1px;
+    border-bottom:  black solid 1px;
+}
+.mytable  .right_td{
+    border-top: silver solid 1px;
+    border-right:  black solid 1px;
+    border-bottom:  black solid 1px;
+}
+.mytable   tbody tr td table tbody tr:hover{
+    background-color: #d5c8c8;
+    color: #8b0000;
+}
+
+.menubar{
+    width: 100%;
+    /*background-color: red;*/
+
+    background-repeat: true;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+    height: 55px;
+    margin: 0p;
+    padding: 0;
+    border-top:1px solid #2B3D44;
+    border-bottom: 1px solid #2B3D44;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.36);
+    /*                display: none;*/
+}
+body{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+body,input{    
+    font-family: "Lucida Grande",Verdana,sans-serif;
+}
+
+h1,h2 {
+    color:#424242;
+    display:block;
+    font-family:Myriad Pro,Helvetica;
+    font-size:25px;
+    font-weight:normal;
+    letter-spacing:-0.03em;
+    margin-top:5px;
+}

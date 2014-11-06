@@ -1,0 +1,102 @@
+#orderDetails{
+    font-family:Calibri;
+    margin-left:75%;
+    color: #545454;
+}
+#heading{
+    font-family:Calibri;
+    margin-left:10%;
+}
+#heading th{
+    font-size:1.2em;
+    background-color: #F1A1B1;
+    width:20%;
+    text-align: left;
+    border-radius:25px;
+    padding: 3px 7px 2px 7px;
+    color:#ffffff;
+}
+#cart{
+    font-family:Calibri;
+    width:80%;
+    margin-left:10%;
+    text-align: center
+
+}
+#cart tr:first-child th:first-child{
+    border-radius: 0.6em 0 0 0;
+}
+#cart tr:first-child th:last-child{
+    border-radius: 0 0.6em 0 0;
+}
+#cart tr:last-child td:first-child{
+    border-radius: 0 0 0 0.6em;
+}
+#cart tr:last-child td:last-child{
+    border-radius: 0 0 0.6em 0;
+}
+#cart th{
+    color: #ffffff;
+    font-size:1.2em;
+    background-color: #1F1F1F
+}
+#cart tr:nth-child(even) {
+    border-radius:25px;
+    border: 5px solid #333333;
+}
+#cart tr:nth-child(odd) {
+    border: 5px solid #808080;
+}
+#cart td:nth-child(odd){
+    border: 5px solid #808080;
+}
+#cart td:nth-child(even){
+    border: 5px solid #333333;
+}
+#updatetxt{
+    width:10%;
+}
+#updatebtn{
+    background-color:#4C4C4C;
+    border-radius:25px;
+    padding: 3px 7px 2px 7px;
+    color: #ffffff;
+}
+#remove{
+    background-color:#4C4C4C;;
+    border-radius:5px;
+    padding: 3px 7px 2px 7px;
+    color: #CC0000;
+    font-weight: bold
+}
+#dress{
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#summary{
+    font-family:Calibri;
+    border-spacing:0;
+    background-color: #E65B77;
+    border-radius:25px;
+    margin-left:10%;
+    margin-top:5%;
+    padding: 3px 7px 2px 7px;
+    width:80%;
+}
+#continue,#order{
+    background-color:#4C4C4C;
+    border-radius:25px;
+    padding: 10px 8px 10px 8px;
+    font-size:1.4em;
+    color: #ffffff;
+}
+#order{
+    background-color:#4C4C4C;	
+}
+#buttonTwo{
+    margin-left:36%;
+    margin-top:3%;
+}

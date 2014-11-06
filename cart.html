@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My shopping cart</title>
+        <link rel="stylesheet" type="text/css" href="css/cart.css"/>
+    </head>
+    <body>
+        <table id="orderDetails">
+            <tr>
+                <td>Order:</td><td>#100003773</td>
+            </tr>
+            <tr>
+                <td>Order date:</td><td>September 3, 2014</td>
+            </tr>
+            <tr>
+                <td>User:</td><td>Dhammika</td>
+            </tr>
+        </table>
+        <table id="heading"><th>My shopping cart</th></table>
+        <table id="cart">
+            <th>Description</th><th>Unit price</th><th>Quantity</th><th>Total</th><th></th>
+            <tr>
+                <td align="left">
+                    <img src="images/product/1.jpg" id="dress" align="left">Rose print tea dress<br><br>Size:Small<br>Colour:Black</td>	
+                <td>$27.80</td>
+                <td align="center"><input type="text" name="update" id="updatetxt"><br>
+                    <form method="get" action="updatecart.php">
+                        <input type="hidden" name="OrderID"/>
+                        <input type="hidden" name="ItemID" />
+                        <input type="hidden" name="Quantity"/>
+                        <input type="submit" name="update" id="updatebtn" value="Update">
+                    </form>
+                </td>
+                <td align="center">$27.80</td>
+                <td align="center"><a href="deletecart.php?OrderId=2&ItemId=24"><button id="remove" type="button">X</button></a></td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <img src="images/product/2.jpg" id="dress" align="left">Classic Fit Pocket Shirt<br><br>Size:Medium<br>Colour:Blue</td>
+                <td align="center">$12.80</td>
+                <td align="center"><input type="text" name="update" id="updatetxt"><br>
+                    <form method="get" action="updatecart.php">
+                        <input type="hidden" name="OrderID"/>
+                        <input type="hidden" name="ItemID" />
+                        <input type="hidden" name="Quantity"/>
+                        <input type="submit" name="update" id="updatebtn" value="Update">
+                    </form>
+                </td>
+                <td align="center">$25.60</td>
+                <td align="center"><a href="deletecart.php?OrderId=2&ItemId=24"><button id="remove" type="button">X</button></a></td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <img src="images/product/3.jpg" id="dress" align="left">Faux leather moto jacket<br><br>Size:Small<br>Colour:Brown</td>
+                <td align="center">$47.50</td>
+                <td align="center"><input type="text" name="update" id="updatetxt"><br>
+                    <form method="get" action="updatecart.php">
+                        <input type="hidden" name="OrderID"/>
+                        <input type="hidden" name="ItemID" />
+                        <input type="hidden" name="Quantity"/>
+                        <input type="submit" name="update" id="updatebtn" value="Update">
+                    </form>
+                </td>
+                <td align="center">$27.80</td>
+                <td align="center"><a href="deletecart.php?OrderId=#100003773&ItemId=24"><button id="remove" type="button">X</button></a></td>
+            </tr>
+        </table>
+        <table id="summary">
+            <tr>
+                <td>
+                    <table id="item">
+                        <tr>
+                            <td>Number of items:</td><td>4</td>
+                        </tr>
+                    </table>
+                </td>
+                <td align="right">
+                    <table id="total">
+                        <tr>
+                            <td>Total amount:</td><td>$100.90</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table id="buttonTwo">
+            <tr>
+                <td><a href="home.php"><button id="continue" type="button">< Continue Shopping</button></a></td>
+                <td><a href="placeorder.php?OrderId=#100003773"><button id="order" type="button">Place order >></button></a></td>
+            </tr>
+        </table>
+    </body>
+</html>
